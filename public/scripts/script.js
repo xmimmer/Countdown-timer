@@ -3,7 +3,7 @@ const hours = document.getElementById("hours")
 const minutes = document.getElementById("minutes")
 const seconds = document.getElementById("seconds")
 
-const MimmerBirthday = "1 May 2022"
+const MimmerBirthday = "16 October 2021"
 
 function countdown() {
 
