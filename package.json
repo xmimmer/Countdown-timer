@@ -1,0 +1,25 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "countdown app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmimmer/Countdown-timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmimmer/Countdown-timer/issues"
+  },
+  "homepage": "https://github.com/xmimmer/Countdown-timer#readme"
+}
