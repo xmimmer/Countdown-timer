@@ -3,15 +3,14 @@ const hours = document.getElementById("hours")
 const minutes = document.getElementById("minutes")
 const seconds = document.getElementById("seconds")
 
-const newYears = "1 Jan 2022"
-
+const MimmerBirthday = "1 May 2022"
 
 function countdown() {
 
-    const newYearsDate = new Date(newYears)
+    const MimmerBirthdayDate = new Date(MimmerBirthday)
     const currentDate = new Date()
 
-    const totalSeconds = (newYearsDate - currentDate) / 1000;
+    const totalSeconds = (MimmerBirthdayDate - currentDate) / 1000;
 
     const _days = Math.floor(totalSeconds / 3600 / 24);
     const _hours = Math.floor(totalSeconds / 3600) % 24;
